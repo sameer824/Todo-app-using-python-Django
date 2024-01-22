@@ -1,0 +1,7 @@
+pipenv shell use for virual environment
+django-verison --version is use for see version of install django
+django-admin startproject todolist
+cd todolist and then ls 
+python manage.py startapp todos 
+
+username = sameeremail= sameerahmad@gmail.compassword= sam337..824
