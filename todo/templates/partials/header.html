@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="utf-8">
+    {% load static %}
+    <style>
+    body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+
+header {
+    background-color: #34247a;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    margin: 5;
+}
+
+a {
+    text-decoration: none;
+    color: #4CAF50;
+    font-weight: bold;
+    padding: 0px 0px;
+    border: 2px solid #4CAF50;
+    border-radius: 4px;
+    transition: background-color 0.1s, color 0.1s;
+    margin-right: 5px; /* Add margin to create space between buttons */
+}
+
+a:hover {
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+}
+
+hr {
+    border: 1px solid #4CAF50;
+    margin: 15px 0;
+}
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+    </style>
+
+    <title>TodoList</title>
+    </head>
+    <body>
+    <header>
+        <h1>TodoList</h1>
+        <a href="/todo/add">Add Todo</a>
+        <hr>
+    </header>
+    <footer>
+        &copy; 2024 Your Todo App. All rights reserved.
+    </footer>

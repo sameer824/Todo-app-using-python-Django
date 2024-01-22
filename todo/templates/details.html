@@ -1,0 +1,35 @@
+{% load static %}
+{% include 'partials/header.html' %}
+    <a href="/todo"><< Go Back</a>
+    
+    <br>
+        <h1>{{todo.title}}</h1>
+    <p>{{todo.text}}</p>
+    <br>
+    Created on {{todo.created_at}}
+{% include 'partials/footer.html' %}
+<!-- details.html
+
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+    <title>Your Todo App</title>
+</head>
+<body>
+
+{% include 'partials/header.html' %}
+    <a href="/todo"><< Go Back</a>
+    
+    <br>
+    <h1>{{todo.title}}</h1>
+    <p>{{todo.text}}</p>
+    <br>
+    Created on {{todo.created_at}}
+{% include 'partials/footer.html' %}
+
+</body>
+</html>
